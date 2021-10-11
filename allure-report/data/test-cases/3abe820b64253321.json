@@ -1,0 +1,162 @@
+{
+  "uid" : "3abe820b64253321",
+  "name" : "Find heading element and assert text on the home page",
+  "fullName" : "Home.Find heading element and assert text on the home page",
+  "historyId" : "8daf4dd1bf9dcb80b62eddb0d7ec1bb4",
+  "time" : {
+    "start" : 1633893670092,
+    "stop" : 1633893672172,
+    "duration" : 2080
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1633893670092,
+        "stop" : 1633893672002,
+        "duration" : 1910
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ebb1f7c2c6175f9",
+        "name" : "Request",
+        "source" : "5ebb1f7c2c6175f9.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1633893672002,
+        "stop" : 1633893672120,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3485d75d122332e",
+        "name" : "Request",
+        "source" : "a3485d75d122332e.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "3d23710e40f110c9",
+        "name" : "Response",
+        "source" : "3d23710e40f110c9.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1633893672121,
+        "stop" : 1633893672149,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "76670cb0b2f9233f",
+        "name" : "Request",
+        "source" : "76670cb0b2f9233f.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "18c07f14b1ffa3e",
+        "name" : "Response",
+        "source" : "18c07f14b1ffa3e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/a8ab80b9-781e-4714-b014-42262e73b1c3/text",
+      "time" : {
+        "start" : 1633893672153,
+        "stop" : 1633893672171,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e2bbf8c128da500",
+        "name" : "Response",
+        "source" : "1e2bbf8c128da500.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Find heading element and assert text on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3abe820b64253321.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

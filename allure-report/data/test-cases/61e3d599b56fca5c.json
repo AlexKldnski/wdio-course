@@ -1,0 +1,180 @@
+{
+  "uid" : "61e3d599b56fca5c",
+  "name" : "Click logo & assert url does NOT contains \"get-started\" text",
+  "fullName" : "Home.Click logo & assert url does NOT contains \"get-started\" text",
+  "historyId" : "2d36a1eb5d995821f7a898fe77de2c8",
+  "time" : {
+    "start" : 1633894682062,
+    "stop" : 1633894682595,
+    "duration" : 533
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1633894682062,
+        "stop" : 1633894682325,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b883f30b8b8da9c1",
+        "name" : "Request",
+        "source" : "b883f30b8b8da9c1.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1633894682325,
+        "stop" : 1633894682337,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a6d9d60e72d8b80",
+        "name" : "Request",
+        "source" : "1a6d9d60e72d8b80.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "92515c247caab402",
+        "name" : "Response",
+        "source" : "92515c247caab402.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1633894682339,
+        "stop" : 1633894682353,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f91b9a0670865b96",
+        "name" : "Request",
+        "source" : "f91b9a0670865b96.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "cc92c315c8cbbdfc",
+        "name" : "Response",
+        "source" : "cc92c315c8cbbdfc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/520cca26-c535-4eb3-a3af-f9db53e1edc6/click",
+      "time" : {
+        "start" : 1633894682361,
+        "stop" : 1633894682579,
+        "duration" : 218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1633894682580,
+        "stop" : 1633894682591,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69392b3cc221520f",
+        "name" : "Response",
+        "source" : "69392b3cc221520f.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Logo Verification"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click logo & assert url does NOT contains \"get-started\" text"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-92.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61e3d599b56fca5c.json",
+  "parameterValues" : [ "firefox-92.0" ]
+}

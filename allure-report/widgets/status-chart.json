@@ -1,0 +1,221 @@
+[ {
+  "uid" : "d5cbe80da364ec9d",
+  "name" : "Open \"About\" Page & assert page url",
+  "time" : {
+    "start" : 1633895034040,
+    "stop" : 1633895038192,
+    "duration" : 4152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdbe4eabdfa00a88",
+  "name" : "Find heading element and assert text on the home page",
+  "time" : {
+    "start" : 1633895039550,
+    "stop" : 1633895051599,
+    "duration" : 12049
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "9e5588fb03e4187b",
+  "name" : "Send a message and assert a success message",
+  "time" : {
+    "start" : 1633985679176,
+    "stop" : 1633985691162,
+    "duration" : 11986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35538039ee8a5c18",
+  "name" : "Click \"Get Started\" button & assert url contains \"get-started\" text",
+  "time" : {
+    "start" : 1633895049579,
+    "stop" : 1633895050484,
+    "duration" : 905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c85529276559a9b1",
+  "name" : "Upload test, choose file button is hidden",
+  "time" : {
+    "start" : 1633894705445,
+    "stop" : 1633894714265,
+    "duration" : 8820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bb110a9063c3120",
+  "name" : "Get list of recent post & assert each item > 10 chars",
+  "time" : {
+    "start" : 1633894638265,
+    "stop" : 1633894651237,
+    "duration" : 12972
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1c8958e70d8183ad",
+  "name" : "Send a message and assert a success message",
+  "time" : {
+    "start" : 1633895040552,
+    "stop" : 1633895061630,
+    "duration" : 21078
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b64d6e0da37250f",
+  "name" : "Simple upload test",
+  "time" : {
+    "start" : 1633894703601,
+    "stop" : 1633894705444,
+    "duration" : 1843
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1590098069ba7ed6",
+  "name" : "Upload test, choose file button is hidden",
+  "time" : {
+    "start" : 1633894623819,
+    "stop" : 1633894654106,
+    "duration" : 30287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6b78ec71b4ce2ac",
+  "name" : "Simple upload test",
+  "time" : {
+    "start" : 1633894618236,
+    "stop" : 1633894623819,
+    "duration" : 5583
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "117c59eaf1cb24b8",
+  "name" : "Open URL & assert title",
+  "time" : {
+    "start" : 1633895021408,
+    "stop" : 1633895041936,
+    "duration" : 20528
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "9d39cf479d25caff",
+  "name" : "Click logo & assert url does NOT contains \"get-started\" text",
+  "time" : {
+    "start" : 1633895050485,
+    "stop" : 1633895052097,
+    "duration" : 1612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa426c94da2ef46f",
+  "name" : "Click \"Get Started\" button & assert url contains \"get-started\" text",
+  "time" : {
+    "start" : 1633895038192,
+    "stop" : 1633895038668,
+    "duration" : 476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b44dbbf1b005b16e",
+  "name" : "Get primary menu items text and assert them",
+  "time" : {
+    "start" : 1633894618557,
+    "stop" : 1633894644004,
+    "duration" : 25447
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "23a363770159c28a",
+  "name" : "Send a message and assert a success message",
+  "time" : {
+    "start" : 1633985677657,
+    "stop" : 1633985688932,
+    "duration" : 11275
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d327b78a57a76aca",
+  "name" : "Get list of recent post & assert each item > 10 chars",
+  "time" : {
+    "start" : 1633894618233,
+    "stop" : 1633894637268,
+    "duration" : 19035
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9ccb971cae881b1d",
+  "name" : "Send a message and assert a success message",
+  "time" : {
+    "start" : 1633895022133,
+    "stop" : 1633895072356,
+    "duration" : 50223
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b483a48a62c549a0",
+  "name" : "Get primary menu items text and assert them",
+  "time" : {
+    "start" : 1633894688660,
+    "stop" : 1633894693409,
+    "duration" : 4749
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3413b85f6c89d08a",
+  "name" : "Click logo & assert url does NOT contains \"get-started\" text",
+  "time" : {
+    "start" : 1633895038669,
+    "stop" : 1633895039549,
+    "duration" : 880
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be022a3ab6579353",
+  "name" : "Find heading element and assert text on the home page",
+  "time" : {
+    "start" : 1633895052097,
+    "stop" : 1633895065096,
+    "duration" : 12999
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "52be6933164158e6",
+  "name" : "Open \"About\" Page & assert page url",
+  "time" : {
+    "start" : 1633895041936,
+    "stop" : 1633895049579,
+    "duration" : 7643
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec85cf604b3c115a",
+  "name" : "Open URL & assert title",
+  "time" : {
+    "start" : 1633895027599,
+    "stop" : 1633895034038,
+    "duration" : 6439
+  },
+  "status" : "passed",
+  "severity" : "minor"
+} ]

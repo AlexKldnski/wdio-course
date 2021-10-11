@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@class='everest-form']//span[text()='Message']/following::textarea"
+}
