@@ -3,8 +3,8 @@ const allure = require('allure-commandline')
 exports.config = {
 
     //Browserstack config
-    user: process.env.BROWSERSTACK_USERNAME,
-    key: process.env.BROWSERSTACK_ACCESS_KEY,
+    //user: process.env.BROWSERSTACK_USERNAME,
+    //key: process.env.BROWSERSTACK_ACCESS_KEY,
     //
     // ====================
     // Runner Configuration
@@ -139,13 +139,13 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: 
-    //['selenium-standalone'],
+    ['selenium-standalone'],
     // [
     //     ['browserstack', {
     //         browserstackLocal: true
     //     }]
     // ],
-    ['browserstack'],
+    //['browserstack'],
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks
