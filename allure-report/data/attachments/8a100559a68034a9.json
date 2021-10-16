@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[@class='everest-form']//span[text()='Phone']/following::input[1]"
-}
